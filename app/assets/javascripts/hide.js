@@ -1,3 +1,4 @@
 function hideWhenClicked(){
-  let 
+  let el = getElementById('hide_this');
+  el
 }
