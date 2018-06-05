@@ -1,4 +1,4 @@
 function hideWhenClicked(){
   let el = getElementById('hide_this');
-  el
+  el.style.display = 'none';
 }
