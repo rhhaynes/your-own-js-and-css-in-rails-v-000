@@ -1,5 +1,5 @@
 document.getElementById('hide_this')
-        .addEventListener('click',(e)=>e.target.style.display='none');
+        .addEventListener('click',hideWhenClicked);
         
 function hideWhenClicked(){
   document.getElementById('hide_this').style.display = 'none';
