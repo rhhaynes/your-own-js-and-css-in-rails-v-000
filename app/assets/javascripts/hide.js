@@ -1,2 +1,2 @@
 document.getElementById('hide_this')
-        .addEventListener('click',()=>this.style.display='none');
+        .addEventListener('click',(e)=>e.target.style.display='none');
